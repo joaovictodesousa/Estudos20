@@ -1,0 +1,67 @@
+.table {
+    width: 70%;
+    margin: 2em 0 0 5em;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+.acoes {
+    width: 10%;
+    text-align: center;
+}
+
+.span_alert {
+    color: white;
+    padding: 1em;
+    margin: 1em 0 1em 2em;
+    background-color: green;
+    border-radius: 15px;
+}
+
+.butao_edit {
+    background-color: grey;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 1em;
+    color: white;
+    text-decoration: none;
+}
+
+.butao_edit:hover {
+    background-color: rgb(72, 72, 72);
+    color: white;
+}
+
+/* Estilo para linhas pares */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cor de fundo para linhas pares */
+}
+
+/* Estilo para linhas ímpares */
+tr:nth-child(odd) {
+    background-color: #ffffff; /* Cor de fundo para linhas ímpares */
+}
+
+tr:hover{
+    background-color: #c1efde;
+}
+
+.butao {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 10px;
+}
+
+.butao:hover {
+    background-color: rgb(176, 0, 0);;
+}
+
+
